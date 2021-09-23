@@ -1,3 +1,7 @@
+body {
+    border:3px solid black;
+}
+
 #timer {
     /* puts the timer in the top right corner */
     position:absolute;
@@ -5,11 +9,31 @@
     right: 10px; 
 }
 
-.button {
+.button,
+ol li button {
     background-color: purple;
     color:White;
 }
 
-.button:hover {
+.button:hover,
+.wrong0:hover,
+.wrong1:hover,
+.wrong2:hover,
+.wrong3:hover,
+.correct:hover {
     background-color: blueviolet;
+}
+
+#h1PG1,
+#pPG1 {
+    text-align: center;
+}
+
+#start {
+    margin: auto;
+}
+
+#quizBox {
+    text-align: center;
+    margin: auto;
 }
